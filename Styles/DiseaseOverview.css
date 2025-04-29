@@ -1,0 +1,99 @@
+.disease-overview {
+  width: 390px;
+  height: 795px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: end;
+  position: relative;
+  color: #101828;
+  background: url("../assets/vector.webp") -145px -35px/422px 420px no-repeat;
+  top: -10px;
+
+  .disease-overview-title {
+    width: 390px;
+    height: 248px;
+    /* padding: 16px; */
+    font-family: exo;
+
+    h3 {
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 0.25px;
+      font-weight: 600;
+      width: 358px;
+      height: 132px;
+      margin: 0 auto;
+
+      span {
+        color: #199ea5;
+      }
+    }
+
+    p {
+      width: 358px;
+      height: 72px;
+      margin: 12px auto 0px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+      font-weight: 400;
+    }
+  }
+
+  .disease-overview-image {
+    width: 358px;
+    height: 383px;
+    margin: 0 auto;
+
+    img {
+      width: 358px;
+      height: 383px;
+    }
+  }
+
+  .disease-overview-link {
+    width: 390px;
+    height: 64px;
+    justify-items: center;
+
+    p {
+      width: 358px;
+      height: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+      margin: 16px 0px 0px;
+      font-weight: 400;
+    }
+
+    .learn-more {
+      width: 129px;
+      height: 22px;
+      color: #199ea5;
+      margin: 0 auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+        
+        a {
+            color: #199ea5;
+            text-decoration: underline;
+        }
+        
+        span{
+          line-height: 120%;
+          letter-spacing: 0.25px;
+          font-size: 16px;
+          font-weight: 600;
+        margin: 0;
+      }
+    }
+  }
+}

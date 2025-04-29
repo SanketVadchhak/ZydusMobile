@@ -1,0 +1,13 @@
+.slider-container{
+    width: 388px;
+    height: 661px;
+    position: relative;
+    z-index: 1;
+    top: -10px;
+
+    img{
+        width: 388px;
+        height: 661px;
+    }
+}
+

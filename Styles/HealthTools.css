@@ -1,0 +1,217 @@
+.health-tools {
+    width: 390px;
+    height: 997px;
+    /* padding: 40px 0px 60px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 40px;
+    margin: 85px auto 80px;
+    background: linear-gradient(to bottom, white, #4F46E5);
+
+
+  }
+  
+  .health-tools-info {
+    width: 390px;
+    height: 272px;
+    justify-self: center;
+    /* padding: 16px; */
+    margin: 40px auto 12px;
+    color: #101828;
+    align-content: center;
+  
+    h2 {
+        width: 358px;
+        height: 132px;
+      font-family: exo;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 44px;
+      letter-spacing: 0.25px;
+      margin: 0 auto 12px;
+  
+      span {
+        color: #199ea5;
+      }
+    }
+  
+    p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      width: 358px;
+      height: 96px;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+      margin: 0 auto;
+      font-weight: 400;
+      
+    }
+  }
+  
+  .health-tools-cards {
+    width: 390px;
+    height: 601px !important;
+    display: flex;
+    margin: 0 auto;
+  
+    h3 {
+      width: 288px;
+      height: 80px;
+      color: #2496a1;
+      font-family: exo;
+      font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      width: 288px;
+      height: 80px;
+      line-height: 40px;
+      margin: 8px 0px;
+      /* align-content: center; */
+      letter-spacing: 0.25px;
+    }
+  
+    p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      width: 288px;
+      height: 42px;
+      text-align: center;
+      /* align-content: center; */
+      color: #667085;
+      margin-bottom: 16px;
+      line-height: 150%;
+      letter-spacing: 0.25px;
+    }
+  
+    img {
+      width: 288px;
+      height: 180px;
+      z-index: 1;
+      justify-self: center;
+    }
+  
+    button {
+      position: relative;
+      color: #fff;
+      width: 288px;
+      height: 54px;
+      z-index: 2;
+      background: #199ea5;
+      box-shadow: 0px 12px 0px #2a7d80;
+      border-radius: 8px;
+      top: -34px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 120%;
+      letter-spacing: 0.25px;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  
+  .food-scanner {
+    width: 320px;
+    height: 561px !important;
+    background-image: url("../assets/food-scanner-back.webp");
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .food-scanner img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .food-scanner button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .food-scanner p:first-child {
+    font-family: exo;
+    width: 89px;
+    height: 22px;
+    color: #fff;
+    background: linear-gradient(90deg, #826e2d 0%, #cda935 45%, #826e2d 100%);
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .health-score {
+    width: 320px;
+    height: 561px !important;
+    background-image: url("../assets/health-score-back.webp");
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .health-score p:first-child {
+    font-family: exo;
+    width: 124px;
+    height: 22px;
+    color: #fff;
+    background: linear-gradient(90deg, #2d3282 0%, #2d31a6 45%, #2d3282 100%);
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .health-score img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .health-score button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .diagnostics {
+      width: 320px;
+      height: 561px !important;
+    background-image: url("../assets/diagnostics-back.webp");
+    justify-items: center;
+    align-content: center;
+  }
+  
+  .diagnostics p:first-child {
+    font-family: exo;
+    width: 89px;
+    height: 22px;
+    color: #fff;
+    background: linear-gradient(90deg, #826e2d 0%, #cda935 45%, #826e2d 100%);
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .diagnostics img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .diagnostics button {
+    margin: 0 auto;
+    display: block;
+  }
+  
