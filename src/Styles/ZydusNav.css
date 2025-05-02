@@ -1,0 +1,80 @@
+.zydus-nav {
+  display: flex;
+  width: 390px;
+  height: 70px;
+  /* background-color: black; */
+  flex-direction: column;
+  position: fixed;
+  z-index: 888;
+
+  .nav-top{
+      width: 390px !important;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      background-color: #FFFFFF;
+      gap: 100px;
+      /* padding: 0px 16px; */
+      /* border: 11px black solid; */
+
+      .menu-image{
+        padding-left: 16px;
+
+      }
+
+      .logo-image{
+        img{
+          width: 81.63px;
+          height: 47px;
+        }
+      }
+      
+      button{
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: #FFFFFF;
+        width: 34px;
+        height: 34px;
+        cursor: pointer;
+      }
+  }
+
+}
+
+.menu-overlay {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  /* padding: 15px 0; */
+
+  .ckd, .podcasts{
+    display: flex;
+    width: 390px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+}
+
+.ckd P:first-child, .podcasts P:first-child{
+  width: 314px;
+}
